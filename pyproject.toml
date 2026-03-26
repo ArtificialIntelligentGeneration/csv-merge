@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "csv-merge"
+version = "0.1.0"
+description = "Tiny zero-dependency CLI for merging CSV files by a shared key column."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Julian Reiter", email = "julian@aigen-agency.com" }]
+keywords = ["csv", "merge", "join", "cli"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+]
+dependencies = []
+
+[project.scripts]
+csv-merge = "csv_merge:main"
+
+[tool.setuptools]
+py-modules = ["csv_merge"]
