@@ -9,7 +9,7 @@ description = "Tiny zero-dependency CLI for merging CSV files by a shared key co
 readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
-authors = [{ name = "Julian Reiter", email = "julian@aigen-agency.com" }]
+authors = [{ name = "Hermann Saliter" }]
 keywords = ["csv", "merge", "join", "cli"]
 classifiers = [
   "License :: OSI Approved :: MIT License",
