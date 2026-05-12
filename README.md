@@ -47,4 +47,4 @@ MIT. See [LICENSE](./LICENSE).
 
 ## Author
 
-[Julian Reiter](mailto:julian@aigen-agency.com).
+Hermann Saliter.
